@@ -1,0 +1,41 @@
+body {
+  background-image: url(images/fond_body.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: left;
+}
+
+h1 {
+  font-size: 20px;
+  color: red;
+}
+
+#conteneur {
+  width: 900px;
+  margin-left: 600px;
+}
+
+header {
+  background-color: gray;
+  font-size: 30px;
+}
+
+footer {
+  background-color: gray;
+  font-size: 30px;
+}
+
+#snow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; /* Pour couvrir toute la largeur de la page */
+  height: 100%; /* Pour couvrir toute la hauteur de la page */
+
+  background-image: url(images/snowflakes.gif);
+  background-repeat: repeat;
+}
+
+#music {
+  visibility: hidden;
+}
